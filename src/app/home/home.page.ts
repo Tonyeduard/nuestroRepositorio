@@ -6,7 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  elementos =[{
+    icono: 'alarm-outline',
+    ruta: '/pagina1',
+    titulo: 'PAGINA 1'
+  },
+  {
+    icono: 'bandage-outline',
+    ruta: '/pagina2',
+    titulo: 'PAGINA 2'
+  }
+  
+  ]
   constructor() {}
 
 }
